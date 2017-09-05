@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Cookie');
+
+html{
+	height: 100%;
+}
+
+body{
+	font-family: "Lato";
+	background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+	color: white;
+	height: 100%;
+}
+
+h1{
+	text-align: center;
+	font-size: 30px;
+	font-weight: 700;
+}
+
+
+.create-column{
+	margin-right: 40px;
+	width: 100px;
+	height: 30px;
+	border: 1px solid white;
+	border-radius: 5px;
+	color: white;
+	font-size: 10px;
+	background: transparent;
+	float: right;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+.column-container {
+ 	display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.column {
+    width: 20%;
+    background: #eaeaec;
+
+    padding:  20px;
+    float: left;
+    margin: 20px;
+    position: relative;
+    border-radius: 5px;
+}
+.column-title{
+	
+	text-align: left;
+	color: grey;
+	font-weight: 700;
+	font-size: 20px;
+}
+p.card-description {
+    color: #848685;
+    background-color: white;
+    padding: 10px;
+    padding-top: 20px;
+}
+
+.btn-delete-column{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	background: transparent;
+	border-radius: 5px;
+	border:1px solid grey;
+	color: grey;
+	cursor: pointer;
+	font-size: 10px;
+
+}
+.add-card{
+	position: absolute;
+	bottom: 5px;
+	left: 10px;
+	background:transparent;
+	border:none;
+	color: grey;
+	font-size: 13px;
+	cursor: pointer;
+}
+
+.card{
+	list-style-type: none;
+	color: grey;
+	text-align: left;
+	margin-left: -40px;
+	padding-top: 1px;
+
+
+}
+
+.btn-delete-card{
+	color: #848685;
+	background:transparent;
+	border-radius: 5px;
+	border:none;
+	cursor: pointer;
+	float: right;
+
